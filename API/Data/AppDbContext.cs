@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using API.Models;
 using Microsoft.EntityFrameworkCore;
 
-namespace API.Data{
+namespace API.Data;
 
 public class AppDbContext : DbContext
 {
@@ -16,4 +16,4 @@ public class AppDbContext : DbContext
     public DbSet<Product> Products { get; set;}
 
 }
-}
+
